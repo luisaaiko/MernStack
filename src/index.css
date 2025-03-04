@@ -3,16 +3,16 @@
 
 /* layout */
 :root {
-  --primary: #1aac83;
+  --primary: #be2626;
   --error: #e7195a;
 }
 body {
-  background: #f1f1f1;
+  background: #a4672a;
   margin: 0;
   font-family: "Poppins";
 }
 header {
-  background: #fff;
+  background: #f1e19a;
 }
 header .container {
   max-width: 1400px;
@@ -23,8 +23,13 @@ header .container {
   justify-content: space-between;
 }
 header a {
-  color: #333;
+  color: #000000;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+header a h1 {
+  margin: 0;
 }
 .pages{
   max-width: 1400px;

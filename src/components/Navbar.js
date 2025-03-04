@@ -6,7 +6,9 @@ const Navbar = () => {
     <header>
         <div className="container">
             <Link to= "/">
-                <h1>Workout buddy</h1>
+                <img src="/bidoof.png" alt="Logo" style={{ height: '50px', marginRight: '10px' }} />
+                <h1>Buff Bidoof</h1>
+
             </Link>
         </div>
     </header>
